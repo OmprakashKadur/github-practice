@@ -1,7 +1,6 @@
-const btn = document.getElementById("btn");
 
+const btn = document.getElementById("btn");
 if (btn) {
-  btn.addEventListener("click", () => {
-    alert("Button clicked");
-  });
+  btn.disabled = false;
 }
+
