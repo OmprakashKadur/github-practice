@@ -2,12 +2,18 @@
     margin: 0;
     padding: 0;
 }
+:root {
+  --primary-color: blue;
+  --button-bg: black;
+  --button-text: white;
+}
+
 #title {
-  color: blue;
+  color: var(--primary-color);
 }
 
 #btn {
   padding: 10px;
-  background: black;
-  color: white;
+  background: var(--button-bg);
+  color: var(--button-text);
 }
