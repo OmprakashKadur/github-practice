@@ -7,5 +7,5 @@ if (btn) {
 //finished work
 
 function loadProfile() {
-  console.log("Profile loaded");
+  console.log("Profile loaded1");
 }
