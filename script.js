@@ -5,3 +5,7 @@ if (btn) {
 }
 // TODO: implement search logic
 //finished work
+
+function loadProfile() {
+  console.log("Profile loaded1");
+}
